@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final CV</title>
+
+    <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/7pMjZVSZahaqMHzY1mtc0A1uCI0eH0m9K_kRZ9r9PmUCwKfm5TYEaMuZP6S6s-TdjQ=w240-h480-rw">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shantell+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+    <script src="https://kit.fontawesome.com/d9210ce63c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="toggle-btn">
+            <span>&#9776;</span>
+        </div>
+        
+        <ul>
+            <li><img src="img/Miku1.jpg" alt="Logotipo" class="logo"></li>
+            <li onclick="mostrarArticulo(1); ocultarSidebar();">Inicio</li>
+            <li onclick="mostrarArticulo(2); ocultarSidebar();">Métodos de contacto</li>
+            <li onclick="mostrarArticulo(3); ocultarSidebar();">Lenguajes de Programación</li>
+            <li onclick="mostrarArticulo(4); ocultarSidebar();">Idiomas</li>
+            <li onclick="mostrarArticulo(5); ocultarSidebar();">Experiencias Profesionales</li>
+            <li onclick="mostrarArticulo(6); ocultarSidebar();">Educación</li>
+        </ul>
+    </div>
+
+    <div id="sidebar2">
+        <div class="toggle-btn">
+            <span>&#9776;</span>
+        </div>
+
+        <ul>
+            <li><img src="img/Miku2.jpeg" alt="Logotipo" class="logo2"></li>
+            <li onclick="mostrarArticulo(7); ocultarSidebar();">Radio / Musica</li>
+        </ul>
+    </div>
+
+
+    <div id="menu">
+        <div class="menu-toggle">
+        
+            <li><img src="img/Miku1.jpg" alt="Logotipo" class="logo"></li>
+            <h2><center>Menu:</center></h2>
+            <ul>
+            <li onclick="mostrarArticulo(1); ocultarSidebar();"><center>Inicio</center></li>
+            <li onclick="mostrarArticulo(2); ocultarSidebar();"><center>Métodos de contacto</center></li>
+            <li onclick="mostrarArticulo(3); ocultarSidebar();"><center>Lenguajes de Programación</center></li>
+            <li onclick="mostrarArticulo(4); ocultarSidebar();"><center>Idiomas</center></li>
+            <li onclick="mostrarArticulo(5); ocultarSidebar();"><center>Experiencias Profesionales</center></li>
+            <li onclick="mostrarArticulo(6); ocultarSidebar();"><center>Educación</center></li>
+            </ul>
+        </div>
+    </div>  
+    
+    <div id="articulo1">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" id="imagen_koreano" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Sobre mí:</center></h2>
+                    <ul>
+                        <li><center><i class="fas fa-calendar-days"></i> Fecha de nacimiento: 11/1/1971</center></li>
+                        <li><center><i class="fas fa-home"></i> Dirección del domicilio: 8824 Cherry St</center></li>
+                    </ul>
+
+                    <p>
+                        Las cosas nunca se me dieron muy bien, tal asi que nisiquiera aprendi el idioma de mi Pais, por lo que me mude a distintos paises hasta que aterrice en Argentina.
+                        En el colegio siempre me fue mal, aunque aprendi español a medias, resulte siendo la decepcion de mis padres por mis malas calificaciones, asi que probe suerte en los videojuegos.
+                        Jugue un par de torneos pero lamentablemente no eran lo mio, ya que fracase en todas las competencias competitivas, asi que el unico trabajo que consegui es el de barrendero del barrio.
+                        Pero a pesar de mis desgracias nunca me rindo, voy siempre al frente, soy osado, tenaz y tengo mucha determinacion para triunfar en el mundo laboral. Por eso solicito el puesto de CEO para Google.
+                        Si me dan el puesto no se van a arrepentir (Por lo menos eso espero).
+                    </p>
+
+                    <!-- ESTO ES UN EASTER EGG :D -->
+                    <!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/jUWp_Rbomzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>-->
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+    
+    <div id="articulo2" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO de Google</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Métodos de contacto:</center></h2>
+
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i>: +54 11 9999 9999</li>
+    
+                        <li><i class="fa-solid fa-envelope"></i>: Corey.Lewis(:D)@ejemplo.com</li>
+    
+                        <li><i class="fa-brands fa-skype"></i>: Lewis.Corey4Ever</li>
+    
+                        <li><i class="fa-brands fa-linkedin"></i>: MasterLewis.Linkedin</li>
+    
+                        <li><i class="fa-brands fa-twitter"></i>: Papucho.lewis</li>
+                        
+                    </ul>    
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+    
+    <div id="articulo3" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Lenguajes de programación:</center></h2>
+
+                    <ul>         
+            
+                        <li> C : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>C#: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>C++: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>Python: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                        <li>HTML / CSS: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>Javascript: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                    
+                    </ul>
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+    
+      
+    <div id="articulo4" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Idiomas:</center></h2>
+                    
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Ingles</li>
+                        <li><i class="fa-solid fa-check"></i> Español</li>
+                        <li><i class="fa-solid fa-xmark"></i> Coreano</i></li>
+                    </ul>
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+
+      
+    <div id="articulo5" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Experiencias Profesionales:</center></h2>
+                 
+                    <ul>
+                    <li><i class="fa-solid fa-gamepad"></i>: Sub-Campeon en el CS GO del torneo del barrio</li>
+        
+                    <li><i class="fa-solid fa-gamepad"></i>: Cuarto lugar en Rocket League de la escuela "Sin Nombre"</li>
+    
+                    <li><i class="fa-solid fa-gamepad"></i>: Tercer Puesto del torneo mancos4ever</li>
+    
+                    <li><i class="fa-solid fa-gamepad"></i>: Ganador del Torneo "Siempre Cebollita</li>
+    
+                    <li><i class="fa-solid fa-broom"></i>: Barrendero</li>
+                    </ul>
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+      
+    <div id="articulo6" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Educacion:</center></h2>
+                
+                    <ul>
+    
+                    <li><i class="fa-solid fa-school"></i> Jardin de Infantes: "Siempre Triunfando" <i class="fa-regular fa-face-laugh-squint"></i></li>  
+    
+                    <li><i class="fa-solid fa-school"></i> Escuela Primaria: "Decepcion de los Padres" <i class="fa-regular fa-face-tired"></i></li>
+                    
+                    <li><i class="fa-solid fa-school"></i> Escuela Secundaria: "Sin Nombre" <i class="fa-regular fa-face-meh"></i></li>
+    
+                    </ul>
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+
+
+
+    <div id="articulo7" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Corey Lewis</h1>
+                <img src="https://randomuser.me/api/portraits/men/90.jpg" alt="Foto de perfil">
+                <h2>Solicitud de empleo: CEO DE GOOGLE</h2>
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Radio:</center></h2>
+                 
+                    <ul>
+                    <li><i class="fa-solid fa-music"></i>: Canciones que gustan escuchar y que seguramente te hagan mas relajante la lectura de este CV:</li>
+                    </ul>
+
+                    <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dd7BILZcYAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jUWp_Rbomzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pVuo4UmHx8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                      
+
+                   
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Proyecto Final de Brian Apfelbaum para Argentina Programa 4.0</footer>
+    
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
