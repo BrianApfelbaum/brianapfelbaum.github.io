@@ -141,6 +141,7 @@ div[id^="articulo"]:not(#articulo1) {
   background: #151719;
   left: -325px;
   transition: all 500ms linear;
+  cursor: pointer;
 }
 
 #sidebar.active{
@@ -184,6 +185,7 @@ div[id^="articulo"]:not(#articulo1) {
   background: #151719;
   right: -325px;
   transition: all 500ms linear;
+  cursor: pointer;
 }
 
 #sidebar2.active{
