@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/vector-gratis/escena-paisaje-bosque-rio-muchos-arboles_1308-60622.jpg?w=1480&t=st=1695676969~exp=1695677569~hmac=6e72e94878075e09c6dcd1c8777c86473497547419a44b9ea2d2bcc94062e5bd">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shantell+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css" />
+    <script src="https://kit.fontawesome.com/d9210ce63c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="toggle-btn">
+            <span>&#9776;</span>
+        </div>
+        
+        <ul>
+            <li><img src="img/Miku1.jpg" alt="Logotipo" class="logo"></li>
+            <li onclick="mostrarArticulo(1); ocultarSidebar();">Inicio</li>
+            <li onclick="mostrarArticulo(2); ocultarSidebar();">Métodos de contacto</li>
+            <li onclick="mostrarArticulo(3); ocultarSidebar();">Lenguajes de Programación</li>
+            <li onclick="mostrarArticulo(4); ocultarSidebar();">Idiomas</li>
+            <li onclick="mostrarArticulo(5); ocultarSidebar();">Experiencias</li>
+            <li onclick="mostrarArticulo(6); ocultarSidebar();">Educación y Títulos</li>
+        </ul>
+    </div>
+
+    <div id="sidebar2">
+        <div class="toggle-btn">
+            <span>&#9776;</span>
+        </div>
+
+        <ul>
+            <li><img src="img/Miku2.jpeg" alt="Logotipo" class="logo2"></li>
+            <li onclick="mostrarArticulo(7); ocultarSidebar();">Radio / Musica</li>
+        </ul>
+    </div>
+
+
+    <div id="menu">
+        <div class="menu-toggle">
+        
+            <li><img src="img/Miku1.jpg" alt="Logotipo" class="logo"></li>
+            <h2><center>Menu:</center></h2>
+            <ul>
+            <li onclick="mostrarArticulo(1); ocultarSidebar();"><center>Inicio</center></li>
+            <li onclick="mostrarArticulo(2); ocultarSidebar();"><center>Métodos de contacto</center></li>
+            <li onclick="mostrarArticulo(3); ocultarSidebar();"><center>Lenguajes de Programación</center></li>
+            <li onclick="mostrarArticulo(4); ocultarSidebar();"><center>Idiomas</center></li>
+            <li onclick="mostrarArticulo(5); ocultarSidebar();"><center>Experiencias Profesionales</center></li>
+            <li onclick="mostrarArticulo(6); ocultarSidebar();"><center>Educación</center></li>
+            </ul>
+        </div>
+    </div>  
+    
+    <div id="articulo1">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Sobre mí:</center></h2>
+                    <ul>
+                        <li><center><i class="fas fa-calendar-days"></i> Fecha de nacimiento: 10/03/1995</center></li>
+                        <li><center><i class="fas fa-home"></i> Dirección del domicilio: Padre Varvello 4144 (Entre Zapiola y Santiago del Estero)</center></li>
+                        <li><center><i class="fas fa-home"></i> Partido: Paso del Rey (Moreno)</center></li>
+
+
+                    </ul>
+
+                    <p>
+                        Apasionado de la informática desde mi juventud, ya que uso una computadora desde que tengo memoria, para estudiar o entretenerme. 
+                        En el colegio siempre usaba herramientas y programas para hacer los trabajos prácticos, si me lo permitían mis profesores. 
+                        Al terminar el colegio empece a estudiar desarrollo de software. 
+                        En la universidad estoy estudiando licenciatura en sistemas de información y actualmente estoy cursando materias de 2/3 año, que se enfocan en enseñarme la lógica de programación, en vez de un lenguaje en específico, para que me pueda acostumbrar rápidamente a cualquier lenguaje moderno. 
+                        Además, por mi parte hago cursos y talleres para ir viendo lo básico en los lenguajes más usados en el ámbito profesional. 
+                        Por ende, me considero una persona muy adaptable y versátil para trabajar en cualquier lenguaje de programación actual y encima al tener una rutina de estudio, puedo aprender con facilidad y rapidez.
+
+                    </p>
+
+                    <!-- ESTO ES UN EASTER EGG :D -->
+                    <!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Fc-XPJE3oeM?si=-m4uKKbhyMs2lWEl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>-->
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+    
+    <div id="articulo2" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Métodos de contacto:</center></h2>
+
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i>: +54 11 2253-9068</li>
+    
+                        <li><i class="fa-solid fa-envelope"></i>: BrianApfelbaum@gmail.com</li>
+    
+                        <li><i class="fa-brands fa-skype"></i>: ---------</li>
+    
+                        <li><i class="fa-brands fa-linkedin"></i>: ---------</li>
+    
+                        <li><i class="fa-brands fa-twitter"></i>: ---------</li>
+                        
+                    </ul>    
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+    
+    <div id="articulo3" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+               
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Lenguajes de programación:</center></h2>
+
+                    <ul>         
+            
+                        <li> C : <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>C++: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>C#: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>Python: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></li>
+                        <li>HTML / CSS: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                        <li>Javascript: <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></li>
+                    
+                    </ul>
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+    
+      
+    <div id="articulo4" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+                
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Idiomas:</center></h2>
+                    
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Inglés Técnico</li>
+                    </ul>
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+
+      
+    <div id="articulo5" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+                
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Experiencias:</center></h2>
+                 
+                    <ul>
+                    <li><i class="fa-solid fa-bag-shopping"></i>: Operador del Correo Argentino "Elecciones presidenciales 2019"</li>
+        
+                    <li><i class="fa-solid fa-bag-shopping"></i>: Traduccion de juegos al español</li>
+    
+                    </ul>
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+      
+    <div id="articulo6" style="display:none">
+        <div id="container">
+    
+            <header>
+
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Titulos y Educacion:</center></h2>
+                
+                    <ul>
+                    
+                    <li><i class="fa-solid fa-school"></i> Titulo de la escuela secundaria: Bachillerato en Ciencias Sociales y Humanidades del colegio San Juan Bautista</li>
+
+                    <li><i class="fa-solid fa-school"></i> Certificado: Primeros pasos del desarrollo frontend en el marco de Argentina Programa 4.0 </li>
+
+                    <li><i class="fa-solid fa-school"></i> Certificado: "Procesamiento de datos con Python" del Trayecto de la Academia de Programación con Python en el marco de ArgentinaPrograma 4.0 </li>
+
+                    <li><i class="fa-solid fa-school"></i> Carrera actual: Licenciatura en sistemas de informacion en la Universidad nacional de Lujan (Cursando materias del segundo y tercer año) </li>
+    
+                    </ul>
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+
+
+
+    <div id="articulo7" style="display:none">
+        <div id="container">
+    
+            <header>
+                <h1>Apfelbaum Brian Emanuel</h1>
+                <img src="https://i.imgur.com/gdUtpf4.png" id="Soy_Yo" alt="Foto de perfil">
+            </header>
+    
+            <div class="clearfix"></div>
+    
+            <section id="content">
+                <article class="article">
+                    <h2><center>Radio:</center></h2>
+                 
+                    <ul>
+                    <li><i class="fa-solid fa-music"></i>: Un poco de musica para acompañar la lecura:</li>
+                    </ul>
+
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_aA14l32f64?si=g5mO2pBnZ5GlnbDq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                </article>
+            </section>
+    
+            <div class="clearfix"></div>
+    
+            <footer>Curriculum Vitae de Apfelbaum Brian Emanuel</footer>
+    
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
